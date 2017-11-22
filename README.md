@@ -1,5 +1,18 @@
 # Stub-Proxy-Server
 
+## Installing
+
+```npm install --save stub-proxy-server express```
+
+or
+
+```yarn add stub-proxy-server express```
+
+## Requirements
+
+* node.js > 4.0.0
+* express > 4.0.0
+
 ## Description
 
 This package allows you to stub endpoints of a server while still keeping the rest of the routes proxied.
@@ -9,7 +22,7 @@ An example use-case would be a lot easier edge-case handling in end-to-end tests
 ## Usage
 
 ``` js
-const ProxyServer = require('./lib');
+const ProxyServer = require('stub-proxy-server');
 
 
 function runServer () {
