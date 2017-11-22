@@ -1,8 +1,11 @@
 {
-  "name": "mock-proxy-server",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "stub-proxy-server",
+  "version": "0.0.1",
+  "main": "lib/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "nodemon": "^1.12.1"
